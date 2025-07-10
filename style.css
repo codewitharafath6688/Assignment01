@@ -384,3 +384,48 @@ body{
     border-radius: 10px;
     border: none;
 }
+
+/* footer section */
+
+.footer-section{
+    width: 100%;
+    height: 430px;
+    /* border: 1px solid black; */
+    background-color: #FFFFFF;
+    border: 1px solid #00000010;
+}
+
+.footer-content{
+    width: 530px;
+    height: 220px;
+    /* border: 1px solid black; */
+    margin: 104px auto;
+}
+
+.footer-content h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-content p{
+    text-align: center;
+    color: #8987A1;
+    line-height: 1.5;
+}
+
+.footer-cards{
+    width: 400px;
+    height: 24px;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-card a{
+    text-decoration: none;
+    color: #8987A1;
+}
