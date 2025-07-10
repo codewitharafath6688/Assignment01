@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common font css */
+
+.inter-in {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-rl {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+/* header section */
+
+.header-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    width: 1140px;
+    height: 151px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav h1{
+    font-weight: bold;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.nav button{
+    width: 132px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+
+.header-content{
+    width: 905px;
+    height: 237px;
+    /* border: 1px solid black; */
+    margin: 110px auto 150px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-content h1{
+    font-size: 65px;
+    text-align:center;
+}
+
+.header-content button{
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+}
+
+/* action section */
+
+.action-section{
+    width: 1140px;
+    height: 328px;
+    /* border: 1px solid black; */
+    margin: 135px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-content{
+    width: 517px;
+    height: 203px;
+    /* border: 1px solid black;  */
+}
+
+.action-content *{
+    margin-top: 15px;
+}
+
+.action-content h1{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-content p{
+    font-size: 24px;
+    color: #25243290;
+}
+
+.action-content button{
+    width: 229px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+}
+
+.action-section .image{
+    width: 423px;
+    height: 328px;
+    background-image: url('./Assets/wc-mini.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 48px;
+}
+
+/* users section */
+
+.users-section{
+    width: 1140px;
+    height: 306px;
+    /* border: 1px solid black; */
+    background-color: #4E47FF27;
+    margin: 155px auto;
+    padding: 80px 50px;
+    border-radius: 24px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.users-section h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.user-content{
+    width: 856px;
+    height: 121px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card{
+    width: 180px;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.user-card h1{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: #4E47FF;
+}
+
+.user-card h4{
+    color: #00000090;
+    font-size: 20px;
+    text-align: center;
+}
