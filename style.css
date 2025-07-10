@@ -321,3 +321,66 @@ body{
     background-size: cover;
     border-radius: 48px;
 }
+
+/* contact section */
+
+.contact-section{
+    width: 1140px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+}
+
+.contact-content h1{
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.contact-form{
+    width: 515px;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-form input[type="email"] , .contact-form input[type="text"]{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+}
+
+ .contact-form textarea{
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+ }
+
+.contact-form input[type="submit"]{
+    width: 100%;
+    height: 65px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+}
